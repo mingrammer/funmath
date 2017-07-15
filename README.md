@@ -5,6 +5,12 @@ It provides the implementations of various topics for mathematical things such a
 
 This repository does not force the specific programming languages, but if you are using the Python, you should use the Python 3.6 to contribute or to run. (you wiil use the only Python 3.6+ in the future)
 
+There can be three types of implementations.
+
+- **By definition** solutions (a mathematical definition. Good examples is fibonacci function. But the solution by definition of the fibonacci has worst performance)
+- **Optimal** solutions which have better performance than by definition one.
+- **Creative** solutions. This may not be optimal one, but creative or funny solutions.
+
 <br>
 
 ## Implementations
@@ -29,7 +35,7 @@ This repository does not force the specific programming languages, but if you ar
 * integral
 * [lcm](lcm)
   * [lcm.py](lcm/lcm.py)
-  * [lcm_optimal_euclidean.py](lcm_optimal_euclidean.py)
+  * [lcm_optimal_euclidean.py](lcm/lcm_optimal_euclidean.py)
 * matrix
   * multiplication
   * multiplication_optimal
@@ -52,10 +58,7 @@ This repository does not force the specific programming languages, but if you ar
 * You can use any programming languages you are preferring, but you **SHOULD** take care of handling large numbers. And if you want to contribute the algorithms with Python, you **SHOULD** write the scripts with Python 3.6+.
 * You must have to write the test codes for each algorithms. See the [example](fibonacci/fibonacci_optimal_memoization.py) for writing the tests (the example is written in Python)
 * It is not recommended to use the builtin math libraries as possible. Because this repository encourages that implement the mathematical things by ourselves.
-* It is better to provide the optimal solutions as well for each algorithms. There can be three types of implementations.
-  * **By definition** solutions (a mathematical definition. Good examples is fibonacci function. But the solution by definition of the fibonacci has worst performance)
-  * **Optimal** solutions.
-  * **Creative** solutions. This may not be optimal one, but creative or funny solutions.
+* It is better to provide the optimal solutions as well for each algorithms.
 
 <br>
 
