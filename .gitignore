@@ -1,0 +1,7 @@
+# compiled files
+*.pyc
+__pycache__/
+
+# editors & IDEs
+.vscode/
+.idea/
