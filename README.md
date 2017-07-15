@@ -50,9 +50,9 @@ There can be three types of implementations.
 * [prime](prime)
   * [is_prime.py](prime/is_prime.py)
   * [is_prime_optimal.py](prime/is_prime_optimal.py)
-* pytagorean numbers
-* square root
-* trigometric functions
+* pytagorean_numbers
+* square_root
+* trigonometric_functions
 
 <br>
 
