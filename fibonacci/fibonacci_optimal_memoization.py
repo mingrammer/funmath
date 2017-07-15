@@ -10,7 +10,7 @@ def fibonacci_optimal_memoization(n: int) -> int:
     """Return the nth fibonacci number using optimal memoization method
 
     This function uses fibonacci dict for caching the calculated fibonacci numbers.
-    So it does  not recalculate the every fibonacci number, so this would be very fast.
+    So it does not recalculate the every fibonacci number, so this would be very fast.
 
     >>> fibonacci_optimal_memoization(0)
     0
