@@ -13,6 +13,13 @@ There can be three types of implementations.
 
 <br>
 
+## Run
+
+* Python
+  * `python3 -m doctest <path>/<script_name.py> -v`
+
+<br>
+
 ## Implementations
 
 * [abs](abs)
