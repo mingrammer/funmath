@@ -71,11 +71,11 @@ There can be three types of implementations.
 
 ## Changelog
 > **Enhancement**
-> - Link the Travis CI to run the tests when commits #4
+> - Link the Travis CI to run the tests when commits [#4](../../issues/4)
 >
 > **Fixed**
-> - Don't check the weird invalid type on functions which accept only specific types #3
-> - Remove the stricted type checking on some functions #2
+> - Don't check the weird invalid type on functions which accept only specific types [#3](../../issues/3)
+> - Remove the stricted type checking on some functions [#2](../../issues/2)
 
 <br>
 
