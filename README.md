@@ -1,3 +1,5 @@
+![python](https://img.shields.io/badge/python-3.6-blue.svg) ![travis](https://travis-ci.org/mingrammer/funmath.svg?branch=master)
+
 # funmath
 Implementations of mathematical functions, formulas and concepts.
 
