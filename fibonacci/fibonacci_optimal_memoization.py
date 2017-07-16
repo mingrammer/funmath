@@ -1,5 +1,3 @@
-import math
-
 fibo_dict = {
     0: 0,
     1: 1,
@@ -24,15 +22,9 @@ def fibonacci_optimal_memoization(n: int) -> int:
     Traceback (most recent call last):
         ...
     ValueError: n must be >= 0
-    >>> fibonacci_optimal_memoization(16.5)
-    Traceback (most recent call last):
-        ...
-    ValueError: n must be exact integer
     """
     if n < 0:
         raise ValueError("n must be >= 0")
-    if math.floor(n) != n:
-        raise ValueError("n must be exact integer")
     if n in fibo_dict:
         return fibo_dict[n]
     else:

@@ -1,6 +1,3 @@
-import math
-
-
 def gcd_optimal_euclidean(a: int, b: int) -> int:
     """Return a GCD (Greatest Common Divisor) of given two integers using euclidean algorithm
 
@@ -22,13 +19,7 @@ def gcd_optimal_euclidean(a: int, b: int) -> int:
     11
     >>> gcd_optimal_euclidean(-20, 30)
     10
-    >>> gcd_optimal_euclidean(40.5, 92.5)
-    Traceback (most recent call last):
-        ...
-    ValueError: both a, b must be exact integers
     """
-    if math.floor(a) != a or math.floor(b) != b:
-        raise ValueError("both a, b must be exact integers")
     if b == 0:
         return a
     a, b = b, a % b

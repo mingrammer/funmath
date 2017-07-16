@@ -1,8 +1,10 @@
 import math
+import numbers
 from typing import Tuple
 
 
-def euclidean_distance(p1: Tuple[float, float], p2: Tuple[float, float]) -> float:
+def euclidean_distance(p1: Tuple[numbers.Integral, numbers.Integral],
+                       p2: Tuple[numbers.Integral, numbers.Integral]) -> numbers.Integral:
     """Calculate the distance between two points on coordinate plane
 
     >>> euclidean_distance((0, 0), (3, 4))

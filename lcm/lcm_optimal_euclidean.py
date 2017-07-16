@@ -1,6 +1,3 @@
-import math
-
-
 def gcd_optimal_euclidean(a: int, b: int) -> int:
     if b == 0:
         return a
@@ -32,12 +29,6 @@ def lcm_optimal_euclidean(a: int, b: int) -> int:
     32376492
     >>> lcm_optimal_euclidean(-20, 30)
     60
-    >>> lcm_optimal_euclidean(40.5, 92.5)
-    Traceback (most recent call last):
-        ...
-    ValueError: both a, b must be exact integers
     """
-    if math.floor(a) != a or math.floor(b) != b:
-        raise ValueError("both a, b must be exact integers")
     gcd = gcd_optimal_euclidean(a, b)
     return abs(int((a * b) / gcd))

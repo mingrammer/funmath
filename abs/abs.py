@@ -1,8 +1,8 @@
-from typing import Union
+import math
 
 
-def abs(x: Union[int, float]) -> Union[int, float]:
-    """Return the absolute value of x, a real number
+def abs(x):
+    """Return the absolute value of x, a numeric value
     
     >>> abs(3)
     3
@@ -12,5 +12,9 @@ def abs(x: Union[int, float]) -> Union[int, float]:
     0
     >>> abs(-3.14)
     3.14
+    >>> abs(-3 + 4j)
+    5.0
     """
+    if isinstance(x, complex):
+        return math.sqrt(x.real ** 2 + x.imag ** 2)
     return x if x >= 0 else -x
