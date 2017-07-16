@@ -56,18 +56,29 @@ There can be three types of implementations.
 
 <br>
 
-## Contribute
+## Contribution
 
 * You can implement any sort of algorithms for mathematical things.
   * If you add new kind of algorithms, please also add that in README as new category.
   * If you want to add other programming language version of existing solutions, you must name the source code file as same to existing one.
   * It is better to provide the explains of your algorithms in comments of source code files.
 * You can use any programming languages you are preferring, but you **SHOULD** take care of handling large numbers. And if you want to contribute the algorithms with Python, you **SHOULD** write the scripts with Python 3.6+.
-* You must have to write the test codes for each algorithms. See the [example](fibonacci/fibonacci_optimal_memoization.py) for writing the tests (the example is written in Python)
+* You **MUST** have to write the test codes for each algorithms. See the [example](fibonacci/fibonacci_optimal_memoization.py) for writing the tests (the example is written in Python)
 * It is not recommended to use the builtin math libraries as possible. Because this repository encourages that implement the mathematical things by ourselves.
 * It is better to provide the optimal solutions as well for each algorithms.
 
 <br>
 
+## Changelog
+> **Enhancement**
+> - Link the Travis CI to run the tests when commits #4
+>
+> **Fixed**
+> - Don't check the weird invalid type on functions which accept only specific types #3
+> - Remove the stricted type checking on some functions #2
+
+<br>
+
 ## Contributors
+
 - [@mingrammer](https://github.com/mingrammer)
