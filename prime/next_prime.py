@@ -10,7 +10,7 @@ def next_prime(number:int):
  #   80023051
 
 
-    if number < 0 :   raise ValueError("Number must be >= 1")
+    if number <= 0 :   raise ValueError("Number must be >= 1")
     number = number + 1
     for p in range(number, 2*number):
         for i in range(2, p):
