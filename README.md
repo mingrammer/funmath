@@ -52,6 +52,7 @@ There can be three types of implementations.
 * [prime](prime)
   * [is_prime.py](prime/is_prime.py)
   * [is_prime_optimal.py](prime/is_prime_optimal.py)
+  * [next_prime.py](prime/next_prime.py)
 * pytagorean_numbers
 * square_root
 * trigonometric_functions
