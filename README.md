@@ -28,8 +28,8 @@ There can be three types of implementations.
   * [abs.py](abs/abs.py)
 * combinations
 * decomposition
-* differential
-  * polynomials
+* [differentiation](differentiation)
+  * [simple_numerical_differentiation.py](differentiation/simple_numerical_differentiation.py)
 * [euclidean](euclidean)
   * [distance.py](euclidean/distance.py)
 * [factorial](factorial)
@@ -52,8 +52,8 @@ There can be three types of implementations.
 * [prime](prime)
   * [is_prime.py](prime/is_prime.py)
   * [is_prime_optimal.py](prime/is_prime_optimal.py)
-  * [next_prime.py](prime/next_prime.py)
-* pytagorean_numbers
+* [pythagorean_triple](pythagorean_triple)
+  * [pythagorean_triple.py](pythagorean_triple/pythagorean_triple.py)
 * square_root
 * trigonometric_functions
 
