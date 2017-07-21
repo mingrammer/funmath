@@ -1,13 +1,26 @@
 import math
 
-MACLAURIN_SERIES_TERMS = 10
+MACLAURIN_SERIES_TERMS = 20
 
 def sin(x):
     """Returns the sine of x (in radians)
 
     This uses the Maclaurin expansion of sine to compute sines for the
     first quadrant of the unit circle.  Anything outsides of the range
-    [0,pi/2] is calculated by exploiting the symmetry of sine.
+    [0,π/2] is calculated by exploiting the symmetry of sine.
+
+    >>> abs(sin(0)) < 1e-6
+    True
+    >>> abs(sin(math.pi/2) - 1) < 1e-6
+    True
+    >>> abs(sin(math.pi*3/2) - (-1)) < 1e-6
+    True
+    >>> abs(sin(math.pi*100)) < 1e-6
+    True
+    >>> abs(sin(math.pi/4) - 1/2**0.5) < 1e-6
+    True
+    >>> abs(sin(math.pi/3) - sin(math.pi/3*2)) < 1e-6
+    True
     """
     def sin_quadrant(x):
         s = 0
@@ -29,11 +42,31 @@ def sin(x):
 
 def cos(x):
     """Returns the cosine of x (in radians)
+
+    This uses the identity cos(θ) = sin(θ+π/2)
+
+    >>> abs(cos(0) - 1) < 1e-6
+    True
+    >>> abs(cos(math.pi) - (-1)) < 1e-6
+    True
+    >>> abs(cos(math.pi*3/2)) < 1e-6
+    True
+    >>> abs(cos(math.pi*100) - 1) < 1e-6
+    True
+    >>> abs(cos(math.pi/4) - sin(math.pi/4)) < 1e-6
+    True
     """
     return sin(x+math.pi/2)
 
 def tan(x):
     """Returns the tangent of x (in radians)
+
+    This uses the identity tan(θ) = sin(θ)/cos(θ)
+
+    >>> abs(tan(1) - sin(1)/cos(1)) < 1e-6
+    True
+    >>> abs(tan(math.pi*100)) < 1e-6
+    True
     """
     return sin(x)/cos(x)
 
