@@ -28,8 +28,8 @@ There can be three types of implementations.
   * [abs.py](abs/abs.py)
 * combinations
 * decomposition
-* differential
-  * polynomials
+* [differentiation](differentiation)
+  * [simple_numerical_differentiation.py](differentiation/simple_numerical_differentiation.py)
 * [euclidean](euclidean)
   * [distance.py](euclidean/distance.py)
 * [factorial](factorial)
