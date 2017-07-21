@@ -7,7 +7,7 @@ def next_prime(number:int):
     >>> next_prime(-26)
     Traceback (most recent call last):
         ...
-    ValueError: n must be >= 1
+    ValueError: Number must be >= 1
     >>> next_prime(80023045)
     80023051
     """
