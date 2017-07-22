@@ -55,7 +55,7 @@ There can be three types of implementations.
 * [pythagorean_triple](pythagorean_triple)
   * [pythagorean_triple.py](pythagorean_triple/pythagorean_triple.py)
 * square_root
-* trigonometric_functions
+* [trigonometric_functions](trigonometric_functions)
   * [trig.py](trigonometric_functions/trig.py)
 
 <br>
@@ -87,3 +87,4 @@ There can be three types of implementations.
 
 - [@mingrammer](https://github.com/mingrammer)
 - [@Xaltonon](https://github.com/Xaltonon )
+- [@TsimpDim](https://github.com/TsimpDim)
