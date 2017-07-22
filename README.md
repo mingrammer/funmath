@@ -56,6 +56,7 @@ There can be three types of implementations.
   * [pythagorean_triple.py](pythagorean_triple/pythagorean_triple.py)
 * square_root
 * trigonometric_functions
+  * [trig.py](trigonometric_functions/trig.py)
 
 <br>
 
