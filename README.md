@@ -34,6 +34,7 @@ There can be three types of implementations.
   * [distance.py](euclidean/distance.py)
 * [factorial](factorial)
   * [factorial.py](factorial/factorial.py)
+  * [factorial_recursion.py](factorial/factorial_recursion.py)
 * [fibonacci](fibonacci)
   * [fibonacci.py](fibonacci/fibonacci.py)
   * [fibonacci_optimal_memoization.py](fibonacci/fibonacci_optimal_memoization.py)
