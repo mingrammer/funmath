@@ -52,6 +52,7 @@ There can be three types of implementations.
 * permutations
 * [prime](prime)
   * [is_prime.py](prime/is_prime.py)
+  * [is_prime_improved.py](prime/is_prime_improved.py)
   * [is_prime_optimal.py](prime/is_prime_optimal.py)
   * [next_prime.py](prime/next_prime.py)
 * [pythagorean_triple](pythagorean_triple)
