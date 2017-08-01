@@ -55,6 +55,7 @@ There can be three types of implementations.
   * [is_prime_improved.py](prime/is_prime_improved.py)
   * [is_prime_optimal.py](prime/is_prime_optimal.py)
   * [next_prime.py](prime/next_prime.py)
+  * [sieve_of_eratosthenes.py](prime/sieve_of_eratosthenes.py)
 * [pythagorean_triple](pythagorean_triple)
   * [pythagorean_triple.py](pythagorean_triple/pythagorean_triple.py)
 * square_root
