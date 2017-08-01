@@ -1,18 +1,18 @@
 from math import sqrt
 
 
-def is_prime(n: int) -> bool:
+def is_prime_improved(n: int) -> bool:
     """Decide the whether the given interger is prime number or not
 
-    >>> is_prime(1)
+    >>> is_prime_improved(1)
     False
-    >>> is_prime(2)
+    >>> is_prime_improved(2)
     True
-    >>> is_prime(119)
+    >>> is_prime_improved(119)
     False
-    >>> is_prime(977)
+    >>> is_prime_improved(977)
     True
-    >>> is_prime(-37)
+    >>> is_prime_improved(-37)
     Traceback (most recent call last):
         ...
     ValueError: n must be >= 1
