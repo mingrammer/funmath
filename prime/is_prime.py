@@ -1,5 +1,5 @@
 def is_prime(n: int) -> bool:
-    """Decide the whether the given interger is prime number or not
+    """Decide the whether the given integer is prime number or not
 
     >>> is_prime(1)
     False

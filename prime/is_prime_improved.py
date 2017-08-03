@@ -2,7 +2,7 @@ from math import sqrt
 
 
 def is_prime_improved(n: int) -> bool:
-    """Decide the whether the given interger is prime number or not
+    """Decide the whether the given integer is prime number or not
 
     >>> is_prime_improved(1)
     False
