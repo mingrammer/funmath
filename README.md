@@ -9,9 +9,9 @@ This repository does not force the specific programming languages, but if you ar
 
 There can be three types of implementations.
 
-- **By definition** solutions (a mathematical definition. Good examples is fibonacci function. But the solution by definition of the fibonacci has worst performance)
-- **Optimal** solutions which have better performance than by definition one.
-- **Creative** solutions. This may not be optimal one, but creative or funny solutions.
+- **By definition** solution, a mathematical definition. Good example is the fibonacci series. But the solution by definition of the fibonacci has worst performance)
+- **Optimal** solution which has better performance than by definition one (or best solution).
+- **Creative** solution. This may not be optimal one, but creative or funny way.
 
 <br>
 
