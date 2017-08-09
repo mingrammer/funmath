@@ -3,13 +3,13 @@
 # funmath
 Implementations of mathematical functions, formulas and concepts.
 
-It provides the implementations of various topics for mathematical things such as fibonacci, euclidean, prime numbers and so on. Any mathematical topics or concepts are welcome. If you love the math, join to here with your algorithms and codes!
+It provides the mathematical implementations for various topics which are related to mathematical things such as fibonacci, euclidean, prime numbers and so on. Any mathematical topics or concepts are welcome. If you love the math, join to here with your algorithms and codes!
 
-This repository does not force the specific programming languages, but if you are using the Python, you should use the Python 3.6 to contribute or to run. (you wiil use the only Python 3.6+ in the future)
+This repository does not force for using the specific programming languages, but if you are using the Python, you should use the Python 3.6 to contribute or to run. (you wiil use the only Python 3.6+ in the future)
 
-There can be three types of implementations.
+A solution can be implemented in three ways:
 
-- **By definition** solution, a mathematical definition. Good example is the fibonacci series. But the solution by definition of the fibonacci has worst performance)
+- **By definition** solution, a mathematical definition. Good example is the fibonacci series. But the solution by definition of the fibonacci has worst performance
 - **Optimal** solution which has better performance than by definition one (or best solution).
 - **Creative** solution. This may not be optimal one, but creative or funny way.
 
