@@ -1,7 +1,17 @@
-![python](https://img.shields.io/badge/python-3.6-blue.svg) ![travis](https://travis-ci.org/mingrammer/funmath.svg?branch=master)
+<br><br>
 
-# funmath
-Implementations of mathematical functions, formulas and concepts.
+<h1 align="center">FUN MATH</h1>
+
+<p align="center">
+  <a href="/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg"/></a>
+  <a href="https://travis-ci.org/mingrammer/funmath.svg?branch=master"><img src="https://img.shields.io/badge/python-3.6-blue.svg"/></a>
+</p>
+
+<p align="center">
+  Implementations of mathematical functions, formulas and concepts
+</p>
+
+<br><br><br>
 
 It provides the mathematical implementations for various topics which are related to mathematical things such as fibonacci, euclidean, prime numbers and so on. Any mathematical topics or concepts are welcome. If you love the math, join to here with your algorithms and codes!
 
