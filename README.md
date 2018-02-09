@@ -23,14 +23,10 @@ A solution can be implemented in three ways:
 - **Optimal** solution which has better performance than by definition one (or best solution).
 - **Creative** solution. This may not be optimal one, but creative or funny way.
 
-<br>
-
 ## Run
 
 * Python
   * `python3 -m doctest <path>/<script_name.py> -v`
-
-<br>
 
 ## Implementations
 
@@ -72,8 +68,6 @@ A solution can be implemented in three ways:
 * [trigonometric_functions](trigonometric_functions)
   * [trig.py](trigonometric_functions/trig.py)
 
-<br>
-
 ## Contribution
 
 * You can implement any sort of algorithms for mathematical things.
@@ -85,8 +79,6 @@ A solution can be implemented in three ways:
 * It is not recommended to use the builtin math libraries as possible. Because this repository encourages that implement the mathematical things by ourselves.
 * It is better to provide the optimal solutions as well for each algorithms.
 
-<br>
-
 ## Changelog
 > **Enhancement**
 > - Link the Travis CI to run the tests when commits [#4](../../issues/4)
@@ -94,8 +86,6 @@ A solution can be implemented in three ways:
 > **Fixed**
 > - Don't check the weird invalid type on functions which accept only specific types [#3](../../issues/3)
 > - Remove the stricted type checking on some functions [#2](../../issues/2)
-
-<br>
 
 ## Contributors
 
