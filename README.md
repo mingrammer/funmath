@@ -6,6 +6,7 @@
   <a href="/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg"/></a>
   <a href="https://app.fossa.io/projects/git%2Bgithub.com%2Fmingrammer%2Ffunmath?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmingrammer%2Ffunmath.svg?type=shield"/></a>
   <a href="https://docs.python.org/3/index.html"><img src="https://img.shields.io/badge/python-3.6-blue.svg"/></a>
+<a href="https://app.fossa.io/projects/git%2Bgithub.com%2Fmingrammer%2Ffunmath?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmingrammer%2Ffunmath.svg?type=shield"/></a>
 </p>
 
 <p align="center">
@@ -23,6 +24,9 @@ A solution can be implemented in three ways:
 - **By definition** solution, a mathematical definition. Good example is the fibonacci series. But the solution by definition of the fibonacci has worst performance
 - **Optimal** solution which has better performance than by definition one (or best solution).
 - **Creative** solution. This may not be optimal one, but creative or funny way.
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmingrammer%2Ffunmath.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmingrammer%2Ffunmath?ref=badge_large)
 
 ## Run
 
