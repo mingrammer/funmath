@@ -93,3 +93,7 @@ A solution can be implemented in three ways:
 - [@mingrammer](https://github.com/mingrammer)
 - [@Xaltonon](https://github.com/Xaltonon )
 - [@TsimpDim](https://github.com/TsimpDim)
+
+## License
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmingrammer%2Ffunmath.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmingrammer%2Ffunmath?ref=badge_large)
