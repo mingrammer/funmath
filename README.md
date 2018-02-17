@@ -4,6 +4,7 @@
 
 <p align="center">
   <a href="/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg"/></a>
+  <a href="https://app.fossa.io/projects/git%2Bgithub.com%2Fmingrammer%2Ffunmath?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmingrammer%2Ffunmath.svg?type=shield"/></a>
   <a href="https://docs.python.org/3/index.html"><img src="https://img.shields.io/badge/python-3.6-blue.svg"/></a>
 </p>
 
