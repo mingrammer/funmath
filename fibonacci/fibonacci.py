@@ -1,3 +1,6 @@
+from functools import lru_cache
+
+@lru_cache(maxsize=None)
 def fibonacci(n: int) -> int:
     """Return the nth fibonacci number
 
