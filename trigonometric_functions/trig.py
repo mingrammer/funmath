@@ -75,6 +75,17 @@ def tan(x):
     """
     return sin(x) / cos(x)
 
+def cosec(x):
+    """returns cosecant of x (in radians)"""
+    return 1 / sin(x)
+
+def sec(x):
+    """returns secant of x (in radians)"""
+    return 1 / cos(x)
+
+def cot(x):
+    """returns cotangent of x (in radians)"""
+    return cos(x) / sin(x)
 
 def quadrant(x):
     """Returns which quadrant of the unit circle x is in.
