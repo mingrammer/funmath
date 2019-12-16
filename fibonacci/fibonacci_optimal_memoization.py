@@ -1,9 +1,11 @@
+from functools import lru_cache
+
 fibo_dict = {
     0: 0,
     1: 1,
 }
 
-
+@lru_cache(maxsize=None)
 def fibonacci_optimal_memoization(n: int) -> int:
     """Return the nth fibonacci number using optimal memoization method
 
